@@ -1,0 +1,20 @@
+node_modules
+dist
+dist-rayfin
+*.local
+.env.local
+rayfin/.temp
+rayfin/.env
+rayfin/.deployments.json
+*.tsbuildinfo
+.DS_Store
+# Local secrets, build state and deployment artifacts (not for publishing)
+.env
+.env.local
+rayfin/.env*
+rayfin/.deployments.json
+rayfin/.temp/
+*.tsbuildinfo
+*.log
+.fabric/deployment.json
+DEPLOYMENT_STATUS.md
